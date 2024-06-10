@@ -23,6 +23,7 @@ export const headerLinks = [
     categoryId: '',
     price: '',
     isFree: false,
+    isPrivate: false,
     url: '',
   }
   
