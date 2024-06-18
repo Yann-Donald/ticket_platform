@@ -37,8 +37,7 @@ export const checkoutOrder = async (order: CheckoutOrderParams) => {
       success_url: `${process.env.NEXT_PUBLIC_SERVER_URL}/profile`,
       cancel_url: `${process.env.NEXT_PUBLIC_SERVER_URL}/`,
     });
-
-    redirect(session.url!)
+     redirect(session.url!)
   } catch (error) {
     throw error;
   }
